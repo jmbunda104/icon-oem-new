@@ -196,7 +196,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  body, #welcome, #services {           /* include any other sections using fixed backgrounds */
+  body, header, #welcome, #services {           /* include any other sections using fixed backgrounds */
     background-attachment: scroll;  /* or just remove this line entirely */
     background-position: center top;
   }
