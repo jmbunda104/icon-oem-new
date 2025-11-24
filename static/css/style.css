@@ -1,12 +1,12 @@
 body, header {
   background-attachment: fixed;
+  background-size: cover;
 }
 
 body {
   background-image: url('../images/newBG.jpg');
   padding-top: 90px;
   font-family: Arial, Helvetica, sans-serif;
-  background-size: cover;
 }
 
 header {
@@ -196,10 +196,16 @@ section {
 }
 
 @media (max-width: 768px) {
-  body, header, #welcome, #services {
+  header, #welcome, #services {
     background-attachment: scroll !important;
     background-position: center top !important;
     background-size: cover !important;
+  }
+  body {
+    background-attachment: scroll !important;
+    background-position: center top !important;
+    background-size: auto !important;
+    background-repeat: repeat !important;
   }
 }
 
