@@ -196,8 +196,10 @@ section {
 }
 
 @media (max-width: 768px) {
-  body, header, #welcome, #services {           /* include any other sections using fixed backgrounds */
-    background-position: center top;
+  body, header, #welcome, #services {
+    background-attachment: scroll !important;
+    background-position: center top !important;
+    background-size: cover !important;
   }
 }
 
