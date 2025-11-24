@@ -1,5 +1,6 @@
 body, header {
   background-attachment: fixed;
+  background-size: cover;
 }
 
 body {
@@ -193,5 +194,13 @@ section {
     border-bottom: 1px solid rgba(248, 249, 250, 1);
   }
 }
+
+@media (max-width: 768px) {
+  body, #welcome, #services {           /* include any other sections using fixed backgrounds */
+    background-attachment: scroll;  /* or just remove this line entirely */
+    background-position: center top;
+  }
+}
+
 
 
