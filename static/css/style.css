@@ -1,12 +1,9 @@
-body, header {
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 body {
   background-image: url('../images/newBG.jpg');
   padding-top: 90px;
   font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
@@ -15,6 +12,8 @@ header {
     url('../images/newBG.jpg');
   border-bottom: 4px solid rgba(0, 11, 35, 1);
   box-shadow: 0 1px 0 rgba(248, 249, 250, 1);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #header-logo {
@@ -57,6 +56,10 @@ main {
 
 section {
   border-bottom: 5px solid rgba(0, 11, 35, 1);
+}
+
+.limited {
+  max-width:1200px;
 }
 
 #welcome {
@@ -137,7 +140,7 @@ section {
   font-size:smaller;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   main {
     border-left: 2px solid rgba(248, 249, 250, 1);
     border-right: 2px solid rgba(248, 249, 250, 1);
@@ -145,7 +148,7 @@ section {
   .welcome-text {
     font-size: 1.6rem;
   }
-}
+}*/
 
 @media (min-width: 768px) {
   .welcome-text {
@@ -195,7 +198,7 @@ section {
   }
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   header, #welcome, #services {
     background-attachment: scroll !important;
     background-position: center top !important;
@@ -207,7 +210,7 @@ section {
     background-size: auto !important;
     background-repeat: repeat !important;
   }
-}
+}*/
 
 
 
