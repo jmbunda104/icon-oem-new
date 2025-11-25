@@ -198,7 +198,7 @@ section {
   }
 }
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
   header, #welcome, #services {
     background-attachment: scroll !important;
     background-position: center top !important;
@@ -210,7 +210,7 @@ section {
     background-size: auto !important;
     background-repeat: repeat !important;
   }
-}*/
+}
 
 
 
